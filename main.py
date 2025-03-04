@@ -162,7 +162,7 @@ class ChatbotAssistant:
 def get_subscrption_cancel():
     reason = ['customer_service', 'low_quality', 'missing_features', 'switched_service', 'too_expensive', 'unused']
 
-    print(random.sample(subcriptions, 3))
+    print(random.sample(reason, 3))
 
 if __name__ == '__main__':
     # assistant = ChatbotAssistant('intents.json', function_mappings = {'subscription_cancel': get_subscrption_cancel})
