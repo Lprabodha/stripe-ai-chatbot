@@ -1,0 +1,140 @@
+{"intents" :  [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "hi and hey"],
+   "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hello! How can I help you?", "Hello!"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye"],
+   "responses": ["See you later, thanks for visiting", "Goodbye!"],
+   "context_set": ""
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful"],
+   "responses": ["You're welcome!", "Anytime!", "My pleasure"],
+   "context_set": ""
+  },
+  {"tag": "noanswer",
+   "patterns": [],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+   "context_set": ""
+  },
+  {"tag": "options",
+   "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+   "responses": ["I can guide you through Adverse Drug Reaction list, Blood Pressure and Heart Rate tracking, and Drug Information"],
+   "context_set": ""
+  },
+  {
+    "tag": "programming",
+    "patterns": [
+      "What programming languages do you know?",
+      "What languages do you code in?",
+      "What languages do you know?"
+    ],
+    "responses": [
+      "I'm proficient in Python, JavaScript, and Java.",
+      "I know Python, JavaScript, and Java.",
+      "I'm familiar with Python, JavaScript, and Java."
+    ]
+  },
+  {
+    "tag": "heart_rate",
+    "patterns": [
+      "Open heart rate module",
+      "Task related to heart rate",
+      "Heart rate data entry",
+      "I want to log heart rate results"
+    ]
+  },
+  {
+    "tag": "hours",
+    "patterns": [
+      "What are your hours of operation?",
+      "What are you guys open?",
+      "When are you open?"
+    ],
+    "responses": [
+      "We are open 7am-4pm Monday-Friday!",
+      "Our hours are 7am-4pm every weekday!",
+      "24/7"
+    ]
+  },
+  {
+    "tag" : "shop",
+    "patterns" : [
+      "Where are you located?",
+      "What is your address?",
+      "Where is your location?",
+      "Where is your shop?"
+    ],
+    "responses" : [
+      "We are located at 1234 Fake St, Springfield, IL 62704",
+      "Our address is 1234 Fake St, Springfield, IL 62704",
+      "We are at 1234 Fake St, Springfield, IL 62704"
+    ]
+  },
+  {
+    "tag" : "name",
+    "patterns" : [
+      "What is your name?",
+      "Who are you?",
+      "What should I call you?",
+      "May I know your name?"
+    ],
+    "responses" : [
+      "You can call me HealthBot.",
+      "I'm HealthBot!",
+      "I'm HealthBot, your personal health assistant."
+    ]
+  },
+  {
+    "tag" : "adverse_drug",
+    "patterns" : [
+      "Adverse drug reaction",
+      "Drug side effects",
+      "I'm feeling sick after taking my medication",
+      "I'm not feeling well after taking my medication",
+      "I'm having side effects"
+    ],
+    "responses" : [
+      "I'm sorry to hear that. Please list your symptoms so I can help you.",
+      "I'm sorry to hear that. Please list your symptoms so I can assist you.",
+      "I'm sorry to hear that. Please list your symptoms so I can guide you."
+    ]
+  },
+  {
+    "tag" : "blood_pressure",
+    "patterns" : [
+      "Blood pressure data entry",
+      "Blood pressure log",
+      "I want to log blood pressure results"
+    ]
+  },
+  {
+    "tag" : "drug_info",
+    "patterns" : [
+      "Drug information",
+      "I need information about a drug",
+      "I want to know more about a drug"
+    ],
+    "responses" : [
+      "Please provide the name of the drug so I can assist you.",
+      "Please provide the name of the drug so I can help you.",
+      "Please provide the name of the drug so I can guide you."
+    ]
+  },
+  {
+    "tag" : "drug_search",
+    "patterns" : [
+      "Search for a drug",
+      "Find a drug",
+      "Search for a medication",
+      "Find a medication"
+    ],
+    "responses" : [
+      "Please provide the name of the drug so I can assist you.",
+      "Please provide the name of the drug so I can help you.",
+      "Please provide the name of the drug so I can guide you."
+    ]
+  }
+]}
